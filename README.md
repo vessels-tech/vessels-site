@@ -1,3 +1,3 @@
 #Vessels
 
-Vessels is an innovation company, focussing on solutions for Low Income countries.
+Vessels is an innovation company, focusing on solutions for Low Income countries.
