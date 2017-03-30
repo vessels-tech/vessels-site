@@ -23,8 +23,8 @@ a.active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// text-transform: uppercase;
 	font-weight: 700;
 }
 
@@ -71,14 +71,36 @@ hr.star-primary:after {
 	margin: 0 auto;
 }
 
+.balance-text {
+  text-align: center;
+}
+
 header {
 	text-align: center;
 	background: @theme-success;
-	color: white;
+	color: @textPrimaryColor;
+  display: inline-block;
+  position: relative;
+
+  .banner-image {
+    position: relative;
+    width:100%;
+    // margin-top: 50px;
+    margin: 0 auto;
+  }
+
+  .overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 	.container {
 		padding-top: 100px;
 		padding-bottom: 50px;
 	}
+
 	img {
 		display: block;
 		margin: 0 auto 20px;
@@ -86,11 +108,16 @@ header {
 	.intro-text {
 		.name {
 			display: block;
-			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-			text-transform: uppercase;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			// text-transform: uppercase;
 			font-weight: 700;
 			font-size: 2em;
 		}
+
+    .star {
+      width: 75px;
+    }
+
 		.skills {
 			font-size: 1.25em;
 			font-weight: 300;
@@ -116,41 +143,41 @@ header {
 }
 
 .navbar-custom {
-	background: @theme-primary;
+	background: @textPrimaryColor;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	font-weight: 700;
 	border: none;
 	.navbar-brand {
-		color: white;
+		color: @primaryTextColor;
 		&:hover,
 		&:focus,
 		&:active,
 		&.active {
-			color: white;
+			color: @primaryTextColor;
 		}
 	}
 	.navbar-nav {
 		letter-spacing: 1px;
 		li {
 			a {
-				color: white;
+				color: @primaryTextColor;
 				&:hover {
 					color: @theme-success;
 				}
 				&:focus,
 				&:active {
-					color: white;
+					color: @primaryTextColor;
 				}
 			}
 			&.active {
 				a {
-					color: white;
+					color: @primaryTextColor;
 					background: @theme-success;
 					&:hover,
 					&:focus,
 					&:active {
-						color: white;
+						color: @primaryTextColor;
 						background: @theme-success;
 					}
 				}
@@ -159,7 +186,7 @@ header {
 	}
 	.navbar-toggle {
 		color: white;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		font-size: 10px;
 		border-color: white;
 		&:hover,
@@ -169,6 +196,73 @@ header {
 			border-color: @theme-success;
 		}
 	}
+}
+
+#what_we_do {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .container {
+    .row {
+      padding-top: 30px
+    }
+
+    .portfolio-item-container {
+      // margin-bottom: 30px;
+      padding: 10px 20px;
+
+      .portfolio-item {
+        background-color: @lighterPrimaryColor;
+        margin: 0;
+        padding: 32px 30px 34px;
+      }
+    }
+
+    .icon-circle {
+      display: inline-block;
+      background: @accentColor;
+      color: @textPrimaryColor;
+      width: 132px;
+      height: 132px;
+      border-radius: 50%;
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 6em;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+#see_our_work {
+  padding: 30px 0px;
+  border-top: 1px solid @theme-success;
+  border-bottom: 1px solid @theme-success;
+
+  .container-fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+
+    .big-links {
+      // border-top: 1px solid @theme-success;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+
+
+
+      .text-container {
+        padding: 20px 30px;
+        // border-bottom: 1px solid @theme-success;
+      }
+    }
+  }
 }
 
 @media(min-width:768px) {
@@ -196,9 +290,10 @@ section {
     padding: 100px 0;
     h2 {
     	margin: 0;
-    	font-size: 3em;
+    	font-size: 2em;
     }
 }
+
 
 section.success {
 	background: @theme-success;
@@ -216,8 +311,13 @@ section.success {
 
 #portfolio {
     .portfolio-item {
-        margin: 0 0 15px;
-        right: 0;
+        // margin: 0 0 15px;
+        // right: 0;
+        .portfolio-icon {
+          text-align: center;
+          color: @primaryTextColor;
+        }
+
         .portfolio-link {
             display: block;
             position: relative;
@@ -359,6 +459,23 @@ footer {
 		color: @theme-success;
 		background: white;
 		border: solid 2px white;
+	}
+}
+
+.btn-outline-2 {
+  color: @theme-success;
+	font-size: 20px;
+	border: solid 2px @theme-success;
+	background: transparent;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		color: @textPrimaryColor;
+		background: @theme-success;
+		border: solid 2px @theme-success;
 	}
 }
 
