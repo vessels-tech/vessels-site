@@ -35,8 +35,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
+  background-image: url('img/logo.svg');
   display: inline-block;
   position: relative;
   top: -0.8em;
@@ -62,6 +61,9 @@ hr.star-primary:after {
 }
 .balance-text {
   text-align: center;
+}
+nav div img {
+  width: 50px;
 }
 header {
   text-align: center;
@@ -180,7 +182,7 @@ header .intro-text .skills {
 }
 #what_we_do .container .icon-circle {
   display: inline-block;
-  background: #FF9800;
+  background: #E89A63;
   color: #FFFFFF;
   width: 132px;
   height: 132px;
@@ -235,7 +237,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 section h2 {
   margin: 0;
@@ -351,6 +353,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 footer {
+  background-color: #607D8B;
   color: white;
 }
 footer h3 {
@@ -358,7 +361,6 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #CFD8DC;
 }
 footer .footer-col {
   margin-bottom: 50px;

@@ -3,6 +3,7 @@
 
 <head>
 
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,6 +49,7 @@
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
 
+
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -56,6 +58,8 @@
                 <a class="navbar-brand" href="#page-top">Vessels</a>
             </div>
 
+            <!-- <img class="col-md-2" src="img/logo.svg" alt="vessels-logo"/> -->
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -63,22 +67,17 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
-                    <!-- <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li> -->
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
                     <li class="">
                         <a href="https://medium.com/vessels">Blog</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-
-
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -88,25 +87,42 @@
       <img class="banner-image" src="img/clay_2.jpg"/>
       <div class="overlay" id="maincontent" tabindex="-1">
         <div class="intro-text">
-            <!-- <hr class="star-light"> -->
-            <h1 class="name">Social Technology for the Developing World</h1>
-            <!-- <img class="star" src="img/star.svg"/> -->
-            <!-- <span class="skills">Lorem ipsum dolor</span> -->
+            <h1 class="name">Digital Tools for the Developing World</h1>
         </div>
       </div>
     </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Who we are</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Vessels builds technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <section id="what_we_do">
       <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>What we do</h2>
-                <!-- <hr class="star-primary"> -->
+                <hr>
+
             </div>
         </div>
 
         <div class="row">
-
           <div class="col-sm-4 portfolio-item-container">
             <div class="portfolio-item text-center">
               <div class="icon-circle text">
@@ -126,7 +142,7 @@
               </div>
               <h4>Software Developent</h4>
               <div>
-                <p>We build software systems. And we're rather good at it.</p>
+                <p>We build software and tools. And we're rather good at it.</p>
               </div>
             </div>
           </div>
@@ -176,8 +192,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="" data-toggle="modal">
+                <div class="col-sm-6 portfolio-item">
+                    <!-- <a href="#portfolioModal1" class="" data-toggle="modal"> -->
+                    <a href="http://marvi.org.in" target="_blank">
                         <div class="caption">
                             <div class="caption-content">
                             </div>
@@ -191,68 +208,51 @@
                         </div>
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <!-- <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
+                <div class="col-sm-6 portfolio-item">
+                    <a href="https://smscollect.xyz" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                            </div>
+                        </div>
+                        <div class="portfolio-icon">
+                          <img src="img/portfolio/smscollect.jpg" class="img-responsive" alt="Cabin">
+                          <div clas="portfolio-content center-text">
+                            <h4>smscollect</h4>
+                            <p>SMS Chatbots for remote data collection</p>
+                          </div>
+                        </div>
                     </a>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-6">
+                    <div class="footer-col col-md-4">
                         <h3>Location</h3>
                         <p>Adelaide, 5000
                           <br />SA, Australia</p>
                     </div>
-                    <!-- <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                    <div class="footer-col col-md-4">
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://medium.com/vessels" class="btn-social btn-outline"><span class="sr-only">Medium</span><i class="fa fa-fw fa-medium"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://twitter.com/lewdaly" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="linkedin.com/in/lewis-daly-2061a273" class="btn-social btn-outline"><span class="sr-only">Linkedin</span><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
-                    </div> -->
-                    <div class="footer-col col-md-6">
+                    </div>
+                    <div class="footer-col col-md-4">
                         <h3>Get In Touch</h3>
-                        <p>Lewis Daly, CTO<br /><a href="mailto:lewisdaly@me.com?Subject=Hello" target="_top">lewisdaly@me.com</a></p>
+                        <a class="btn btn-lg btn-outline" type="button" href="mailto:lewis@vesselstech.com?Subject=Hello">Email Lewis</a>
                     </div>
                 </div>
             </div>
