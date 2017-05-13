@@ -12,6 +12,7 @@
 
     <title>Vessels - Social Technology</title>
 
+
     <!--  OG Info -->
     <meta property="og:title" content="Digital Tools for the Developing World" />
     <meta property="og:site_name" content="Vessels" />
@@ -30,6 +31,8 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="canonical" href="https://github.com/lewisdaly/mywell-server/blob/master/paper/brochure.md" />
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -52,33 +55,29 @@
 
 <body id="page-top" class="index">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
-
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
-
 
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Vessels</a>
+                <a class="navbar-brand" href="/">Vessels</a>
             </div>
-
-            <!-- <img class="col-md-2" src="img/logo.svg" alt="vessels-logo"/> -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="/#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="/#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="/#portfolio">Portfolio</a>
                     </li>
                     <li class="">
                         <a href="https://medium.com/vessels">Blog</a>
@@ -92,144 +91,43 @@
 
     <!-- Header -->
     <header>
-      <img class="banner-image" src="img/clay_2.jpg"/>
+      <img class="banner-image" src="img/portfolio/mywell.jpg"/>
       <div class="overlay" id="maincontent" tabindex="-1">
         <div class="intro-text">
-            <h1 class="name">Digital Tools for the Developing World</h1>
+            <h1 class="name">MyWell</h1>
+            <h3>Crowdsourced well monitoring</h3>
         </div>
       </div>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Who we are</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-4">
-                    <p>Vessels builds technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations.</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="what_we_do">
+    <section id="mywell">
       <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>What we do</h2>
-                <hr>
-
-            </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-4 portfolio-item-container">
-            <div class="portfolio-item text-center">
-              <div class="icon-circle text">
-                <i class="fa fa-lightbulb-o text-center" aria-hidden="true"></i>
-              </div>
-              <h4>Research</h4>
-              <div>
-                <p>We research IT projects for development. And we love  it.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4 portfolio-item-container">
-            <div class="portfolio-item text-center">
-              <div class="icon-circle text">
-                <i class="fa fa-code" aria-hidden="true"></i>
-              </div>
-              <h4>Software Developent</h4>
-              <div>
-                <p>We build software and tools. And we're rather good at it.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4 portfolio-item-container">
-            <div class="portfolio-item text-center">
-              <div class="icon-circle text">
-                <i class="fa fa-cogs" aria-hidden="true"></i>
-              </div>
-              <h4>Data Analysis</h4>
-              <div>
-                <p>We crunch numbers and make pretty reports with infographics.</p>
-              </div>
-            </div>
-          </div>
-
+        <!-- shamelessly copied from rendered github markdown. -->
+        <div id="readme" class="readme blob instapaper_body">
+          <article class="markdown-body entry-content" itemprop="text">
+            <h2>What is it</h2>
+            <p>MyWell is a Smartphone and SMS app for tracking wells in MARVI. The app works by crowdsourcing well, rainfall and checkdam readings from MARVI's network of BJs. MyWell displays the current status of each well, as well as historical and village level data for simple comparison and analysis.</p>
+            <p><a href="https://github.com/lewisdaly/mywell-server/blob/master/paper/image-1-screenshots.png" target="_blank"><img src="https://github.com/lewisdaly/mywell-server/raw/master/paper/image-1-screenshots.png" alt="screenshots" style="max-width:100%;"></a></p>
+            <h2>How it works</h2>
+            <h3>Readings &amp; Visualisation</h3>
+            <p>When a BJ takes a reading from a well, rainfall station or checkdam, they can use MyWell to submit it immediately. Either with a Smartphone or over SMS, all they need to do is fill in a simple form. This eliminates the need to use paper based systems, and allows for immediate feedback for the farmers relying on MyWell. Once a BJ saves a reading in the MyWell system, anyone can access it at a later date for statistics and data analysis.</p>
+            <p><a href="https://github.com/lewisdaly/mywell-server/blob/master/paper/image-2-submission.png" target="_blank"><img src="https://github.com/lewisdaly/mywell-server/raw/master/paper/image-2-submission.png" alt="screenshots" style="max-width:100%;"></a></p>
+            <p>With a network of BJs collecting data, MyWell is able to provide valuable insights to farmers. MyWell displays simple graphs; snapshots of the readings from a Well, Raingauge or Checkdam over the last 3 years.  MyWell also calculates village level statistics. These statistics let farmers  compare and benchmark their wells against one another.</p>
+            <p><a href="https://github.com/lewisdaly/mywell-server/blob/master/paper/image-3-visualisations.png" target="_blank"><img src="https://github.com/lewisdaly/mywell-server/raw/master/paper/image-3-visualisations.png" alt="screenshots" style="max-width:100%;"></a></p>
+            <h3>Management</h3>
+            <p>MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location.</p>
+            <p>MyWell also has a 'Banner Image' feature. Each well can have a unique Banner Image - usually of the well and farmer -  allowing for greater personalisation and buy-in from farmers.</p>
+            <p>Finally, MyWell allows admins to upload a large number of readings at a time. This allows an import of large amounts of historical data; increasing the immediate value of MyWell to the farmers.</p>
+            <h2>Next Steps for MyWell</h2>
+            <p>In the next phase, MyWell will be scaled from 10 to 100 villages, onto several orders of magnitude larger. This means making improvements to the features that make up the self-managed MyWell network. MyWell's analytics and visualisation features will be improved to allow for better groundwater visibility for farmers. This will also help cater to the science and research aspects of MyWell and MARVI as a whole.</p>
+            <p>As far as app features go, MyWell needs to learn a few new languages; especially Gujarati and Rajasthani. The SMS features of MyWell are targeted for improvement - with modern Chatbot and AI technologies. The goal is to make interacting with MyWell over SMS easier and more conversational.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="success" id="see_our_work" >
-      <div class="container-fluid">
-        <div class="row big-links">
-            <div class="col-md-6 big-link">
-                <div class="text-container text-center">
-                  <h3 class="balance-text">Read some of our code</h3>
-                  <a class="btn btn-lg btn-outline text-center" type="button" href="https://github.com/vessels-tech">GitHub</a>
-                </div>
-            </div>
-            <div class="col-md-6 big-link">
-                <div class="text-container text-center">
-                  <h3 class="balance-text">Check out our Medium Blog</h3>
-                  <a class="btn btn-lg btn-outline" type="button" href="https://medium.com/vessels">Medium</a>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Our Projects</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="/mywell.html" target="_blank">
-                        <div class="caption">
-                            <div class="caption-content">
-                            </div>
-                        </div>
-                        <div class="portfolio-icon">
-                          <img src="img/portfolio/mywell.jpg" class="img-responsive" alt="mywell-hands">
-                          <div clas="portfolio-content center-text">
-                            <h4>MyWell</h4>
-                            <p>Water Tracking and Management in rural India</p>
-                          </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="https://smscollect.xyz" target="_blank">
-                        <div class="caption">
-                            <div class="caption-content">
-                            </div>
-                        </div>
-                        <div class="portfolio-icon">
-                          <img src="img/portfolio/smscollect.jpg" class="img-responsive" alt="Cabin">
-                          <div clas="portfolio-content center-text">
-                            <h4>smscollect</h4>
-                            <p>SMS Chatbots for remote data collection</p>
-                          </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Footer -->
     <footer class="text-center">

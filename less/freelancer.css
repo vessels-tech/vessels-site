@@ -66,6 +66,7 @@ nav div img {
   width: 50px;
 }
 header {
+  width: 100%;
   text-align: center;
   background: #607D8B;
   color: #FFFFFF;
@@ -215,6 +216,14 @@ header .intro-text .skills {
 }
 #see_our_work .container-fluid .big-links .text-container {
   padding: 20px 30px;
+}
+#mywell p {
+  padding-bottom: 20px;
+}
+#mywell h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .navbar-custom {
