@@ -76,6 +76,10 @@ hr.star-primary:after {
   text-align: center;
 }
 
+.filler {
+	width: 100%;
+}
+
 nav div img {
 	width: 50px;
 }
@@ -84,7 +88,7 @@ nav div img {
 header {
 	width: 100%;
 	text-align: center;
-	background: @theme-success;
+	background: @accentColor;
 	color: @textPrimaryColor;
   display: inline-block;
   position: relative;
@@ -95,6 +99,25 @@ header {
     // margin-top: 50px;
     margin: 0 auto;
   }
+
+	.promo-banner {
+
+		.intro-text {
+			margin-top: 20%;
+		}
+
+		.top-image {
+			width: 100%;
+			margin-top: 30px;
+		}
+
+		@media(min-width:1020px) {
+			.top-image {
+				width: 50%;
+			}
+		}
+	}
+
 
   .overlay {
     position: absolute;
@@ -114,11 +137,11 @@ header {
 	}
 	.intro-text {
 		.name {
-			display: block;
-			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-			// text-transform: uppercase;
-			font-weight: 700;
-			font-size: 2em;
+			// display: block;
+			// font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			// // text-transform: uppercase;
+			// font-weight: 700;
+			// font-size: 2em;
 		}
 
     .star {
@@ -245,6 +268,55 @@ header {
   }
 }
 
+#what_it_does {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .container {
+    .row {
+      padding-top: 30px
+    }
+
+    .portfolio-item-container {
+      // margin-bottom: 30px;
+      padding: 10px 20px;
+
+      .portfolio-item {
+        // background-color: @lighterPrimaryColor;
+        margin: 0;
+        // padding: 32px 30px 34px;
+      }
+    }
+
+    .icon-circle {
+      display: inline-block;
+      background: @accentColor;
+      color: @textPrimaryColor;
+      width: 132px;
+      height: 132px;
+      border-radius: 50%;
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 6em;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+#in_the_news {
+	.portfolio-item {
+		background: @lighterPrimaryColor;
+		padding: 20px;
+		margin:20px;
+		height: 150px;
+	}
+}
+
 #see_our_work {
   padding: 30px 0px;
   border-top: 1px solid @theme-success;
@@ -270,6 +342,13 @@ header {
       }
     }
   }
+}
+
+#one_line {
+	h3 {
+		font-weight: 400;
+		font-size: 32px;
+	}
 }
 
 #mywell {
@@ -316,6 +395,11 @@ section {
 
 section.success {
 	background: @theme-success;
+	color: white;
+}
+
+section.accent {
+	background: @accentColor;
 	color: white;
 }
 

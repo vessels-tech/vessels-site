@@ -62,13 +62,16 @@ hr.star-primary:after {
 .balance-text {
   text-align: center;
 }
+.filler {
+  width: 100%;
+}
 nav div img {
   width: 50px;
 }
 header {
   width: 100%;
   text-align: center;
-  background: #607D8B;
+  background: #CDB59B;
   color: #FFFFFF;
   display: inline-block;
   position: relative;
@@ -77,6 +80,18 @@ header .banner-image {
   position: relative;
   width: 100%;
   margin: 0 auto;
+}
+header .promo-banner .intro-text {
+  margin-top: 20%;
+}
+header .promo-banner .top-image {
+  width: 100%;
+  margin-top: 30px;
+}
+@media (min-width: 1020px) {
+  header .promo-banner .top-image {
+    width: 50%;
+  }
 }
 header .overlay {
   position: absolute;
@@ -91,12 +106,6 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
-}
-header .intro-text .name {
-  display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 2em;
 }
 header .intro-text .star {
   width: 75px;
@@ -183,7 +192,7 @@ header .intro-text .skills {
 }
 #what_we_do .container .icon-circle {
   display: inline-block;
-  background: #E89A63;
+  background: #CDB59B;
   color: #FFFFFF;
   width: 132px;
   height: 132px;
@@ -197,6 +206,42 @@ header .intro-text .skills {
   font-size: 6em;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+#what_it_does {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#what_it_does .container .row {
+  padding-top: 30px;
+}
+#what_it_does .container .portfolio-item-container {
+  padding: 10px 20px;
+}
+#what_it_does .container .portfolio-item-container .portfolio-item {
+  margin: 0;
+}
+#what_it_does .container .icon-circle {
+  display: inline-block;
+  background: #CDB59B;
+  color: #FFFFFF;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  position: relative;
+}
+#what_it_does .container .icon-circle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 6em;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#in_the_news .portfolio-item {
+  background: #eef1f3;
+  padding: 20px;
+  margin: 20px;
+  height: 150px;
 }
 #see_our_work {
   padding: 30px 0px;
@@ -216,6 +261,10 @@ header .intro-text .skills {
 }
 #see_our_work .container-fluid .big-links .text-container {
   padding: 20px 30px;
+}
+#one_line h3 {
+  font-weight: 400;
+  font-size: 32px;
 }
 #mywell p {
   padding-bottom: 20px;
@@ -254,6 +303,10 @@ section h2 {
 }
 section.success {
   background: #607D8B;
+  color: white;
+}
+section.accent {
+  background: #CDB59B;
   color: white;
 }
 @media (max-width: 767px) {
