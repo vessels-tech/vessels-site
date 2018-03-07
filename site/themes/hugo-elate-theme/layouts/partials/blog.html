@@ -6,9 +6,8 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 subtext">
 						<h3>{{ with .Site.Params.blog.description }}{{ . | markdownify }}{{ end }}</h3>
-						<a href="{{ with .Site.Params.blog.url }}{{.}}{{ end }}">
-							<i class="{{ with .Site.Params.blog.icon }}{{. | markdownify}}{{ end }}"></i>
-							<p>{{with .Site.Params.blog.button_text }}{{.}}{{ end }}</p>
+						<a class="btn btn-primary" target="_blank" href="{{ with .Site.Params.blog.url }}{{.}}{{ end }}">
+							{{with .Site.Params.blog.button_text }}{{.}}{{ end }}
 						</a>
 					</div>
 				</div>

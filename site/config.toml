@@ -72,8 +72,8 @@ google_analytics_key = ""
   enable = true
   title = "Blog"
   description = "read out blog please"
-  button_text = "BLOG"
-  url = "https://blog.com"
+  button_text = "Read our Blog"
+  url = "https://medium.com/vessels"
   icon = "#medium"
 
 # Work section
@@ -230,7 +230,6 @@ google_analytics_key = ""
       ["icon-globe", '<a href="http://vesselstech.com/" target="_blank">vesselstech.com</a>']
     ]
 
-  form = "Hey"
   name = "Name"
   email = "Email"
   message = "Message"
