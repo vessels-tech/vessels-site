@@ -37,7 +37,7 @@ google_analytics_key = ""
 
 # Hero section
 [params.hero]
-  title = "Digital Innovation for the Developing World."
+  title = "Digital Innovation for Social Impact."
   subtitle = 'We build technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations.'
 
 # Intro section
@@ -230,6 +230,7 @@ google_analytics_key = ""
       ["icon-globe", '<a href="http://vesselstech.com/" target="_blank">vesselstech.com</a>']
     ]
 
+  form = "Hey"
   name = "Name"
   email = "Email"
   message = "Message"
