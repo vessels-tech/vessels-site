@@ -46,32 +46,33 @@ google_analytics_key = ""
 
 [[params.intro.item]]
   title = "Software"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  url = "#"
+  description = "We are determined to see software used to better the lives of others. We build software solutions in uncommon places."
+  url = "#fh5co-contact"
   button = "Get In Touch"
-  icon = "icon-bulb"
+  # icon = "icon-bulb"
+  icon = "icon-screen-smartphone"
   img = "img_7.jpg"
 
 [[params.intro.item]]
   title = "DLT"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  url = "#"
-  button = "Click Me"
-  icon = "icon-wrench"
+  description = "We're upcoming experts in Blockchain and Distributed Ledger Technology. We believe it can be used for transformative impact in low income countries."
+  url = "#fh5co-work"
+  button = "Learn More"
+  icon = "icon-layers"
   img = "img_8.jpg"
 
 [[params.intro.item]]
   title = "AI & NLP"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  url = "#"
+  description = "We're investing in using AI and Natural Language Interfaces to reach underserved markets."
+  url = "#fh5co-work"
   button = "Why us?"
-  icon = "icon-rocket"
+  icon = "icon-bubbles"
   img = "img_10.jpg"
 
 [params.blog]
   enable = true
   title = "Blog"
-  description = "read out blog please"
+  description = "Follow along with our work as as we do it."
   button_text = "Read our Blog"
   url = "https://medium.com/vessels"
   icon = "#medium"
@@ -79,40 +80,48 @@ google_analytics_key = ""
 # Work section
 [params.work]
   enable = true
-  title = "Work"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  footertext = ''
+  title = "Our Work"
+  description = "Here's just some of the projects we're working on."
+  footertext = 'Want to see your project in this list? <a href="#fh5co-contact">Contact Us.</a>'
 
-  #TODO: Figure out how to add links to this
   [[params.work.row]]
-    img = "work_1.jpg"
+    img = "work_mywell.jpg"
     alt = "Image2"
     title = "MyWell"
-    subtitle = 'Crowdsourcing Well levels for community led .... '
+    url = "https://vesselstech.com/mywell.html"
+    link_enabled = true
+    subtitle = 'Building communities for sustainable groundwater in rural India.'
 
   [[params.work.row]]
-    img = "work_2.jpg"
+    img = "work_4pbot_1.png"
     alt = "Image2"
     title = "4PBot"
-    subtitle = "Using AI and NLP to support CCT beneficaries in the Philippines"
+    url = "https://4pbot.com"
+    link_enabled = true
+    subtitle = "Using AI and NLP to for financial inclusion in the Philippines."
 
   [[params.work.row]]
-    img = "work_3.jpg"
+    img = "work_smscollect.jpg"
     alt = "Image3"
     title = "smscollect"
+    url = "https://smscollect.xyz"
+    link_enabled = true
     subtitle = "Using chatbots to collect data from just about anywhere"
 
   [[params.work.row]]
-    img = "work_4.jpg"
-    alt = "Image4"
-    title = "IOTAStuff"
-    subtitle = "Using IOTA to do stuff 1"
+    img = "work_iota.png"
+    alt = "Iota Work"
+    title = "IOTA"
+    link_enabled = false
+    subtitle = "Investing in IOTA for scalable IoT micropayments."
 
   [[params.work.row]]
-    img = "work_5.jpg"
-    alt = "Image5"
-    title = "IOTA Stuff 2"
-    subtitle = "Using IOTA to do stuff 2"
+    img = "work_iot.png"
+    alt = "Remote Data Collection"
+    title = "Remote IoT Solutions"
+    link_enabled = false
+    subtitle = "Collecting microclimate data to combat climate change."
+
 
 # Testimonials section
 [params.testimonials]
@@ -138,26 +147,25 @@ google_analytics_key = ""
     img = "person3.jpg"
     alt = "Person3"
 
-
 # Services section
 [params.services]
   enable = true
   title = "What we do"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  description = "Vessels Tech builds technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations."
 
   [[params.services.item]]
     title = "Research"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-    icon = "icon-anchor"
+    description = "We research IT projects for development. And we love it."
+    icon = "icon-book-open"
 
   [[params.services.item]]
     title = "Software Development"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-    icon = "icon-layers2"
+    description = "We build software and tools, with a focus on technology for social change."
+    icon = "icon-screen-smartphone"
   [[params.services.item]]
-    title = "Data Analytics and stuff"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-    icon = "icon-video2"
+    title = "Data Analytics and Insights"
+    description = "We crunch numbers and make pretty reports with pretty infographics."
+    icon = "icon-directions"
 
 # About section
 [params.about]
@@ -221,7 +229,7 @@ google_analytics_key = ""
   map = true
   form = true
   title = "Get in touch"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  description = "Got an idea you want to work on? Or maybe you are just interested in learning more? Contact us. We won't bite."
 
   # Available icons: http://simplelineicons.com/
   details = [
@@ -238,7 +246,7 @@ google_analytics_key = ""
 # Footer section
 [params.footer]
   enable = true
-  copyright = '&copy; Vessels Tech Pty. Ltd. All Rights Reserved.'
+  copyright = '</br>&copy; Vessels Tech Pty. Ltd. All Rights Reserved.'
   links = [
       ["icon-twitter", "https://twitter.com/lewdaly", "#twitter"],
       ["icon-medium", "https://medium.com/vessels", "#medium"],
