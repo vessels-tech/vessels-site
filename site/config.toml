@@ -1,0 +1,245 @@
+# Page settings
+baseurl = "https://vesselstech.com"
+title = "Vessels Tech"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+
+custom_css = ["css/custom1.css", "css/custom2.css"]
+
+# Meta
+author = "Vessels Tech"
+description = "Vessels Tech is ... "
+email = "lewis@vesselstech.com"
+
+#key for vessels-site firebase project
+google_map_key = "AIzaSyC-0czIvb5y6EuuDHSv_zgFWUy-IJQYDaY"
+google_analytics_key = ""
+
+
+# Navigation
+[params.navigation]
+  brand = "Vessels Tech"
+  home = "Home"
+  work = "Projects"
+  testimonials = "Testimonials"
+  services = "Services"
+  about = "About"
+  contact = "Contact"
+  blog = "Blog"
+
+  [params.menu]
+  [[params.menu.postpend]]
+    URL = "https://medium.com/vessels"
+    name = "Blog"
+    weight = 10
+
+# Hero section
+[params.hero]
+  title = "Digital Innovation for the Developing World."
+  subtitle = 'We build technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations.'
+
+# Intro section
+# Available icons: http://simplelineicons.com/
+[params.intro]
+
+[[params.intro.item]]
+  title = "Software"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  url = "#"
+  button = "Get In Touch"
+  icon = "icon-bulb"
+  img = "img_7.jpg"
+
+[[params.intro.item]]
+  title = "DLT"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  url = "#"
+  button = "Click Me"
+  icon = "icon-wrench"
+  img = "img_8.jpg"
+
+[[params.intro.item]]
+  title = "AI & NLP"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  url = "#"
+  button = "Why us?"
+  icon = "icon-rocket"
+  img = "img_10.jpg"
+
+[params.blog]
+  enable = true
+  title = "Blog"
+  description = "read out blog please"
+  button_text = "BLOG"
+  url = "https://blog.com"
+  icon = "#medium"
+
+# Work section
+[params.work]
+  enable = true
+  title = "Work"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  footertext = ''
+
+  #TODO: Figure out how to add links to this
+  [[params.work.row]]
+    img = "work_1.jpg"
+    alt = "Image2"
+    title = "MyWell"
+    subtitle = 'Crowdsourcing Well levels for community led .... '
+
+  [[params.work.row]]
+    img = "work_2.jpg"
+    alt = "Image2"
+    title = "4PBot"
+    subtitle = "Using AI and NLP to support CCT beneficaries in the Philippines"
+
+  [[params.work.row]]
+    img = "work_3.jpg"
+    alt = "Image3"
+    title = "smscollect"
+    subtitle = "Using chatbots to collect data from just about anywhere"
+
+  [[params.work.row]]
+    img = "work_4.jpg"
+    alt = "Image4"
+    title = "IOTAStuff"
+    subtitle = "Using IOTA to do stuff 1"
+
+  [[params.work.row]]
+    img = "work_5.jpg"
+    alt = "Image5"
+    title = "IOTA Stuff 2"
+    subtitle = "Using IOTA to do stuff 2"
+
+# Testimonials section
+[params.testimonials]
+  enable = false
+  title = "Testimonials"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  [[params.testimonials.item]]
+    quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+    person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    img = "person1.jpg"
+    alt = "Person1"
+
+  [[params.testimonials.item]]
+    quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+    person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    img = "person2.jpg"
+    alt = "Person2"
+
+  [[params.testimonials.item]]
+    quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+    person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    img = "person3.jpg"
+    alt = "Person3"
+
+
+# Services section
+[params.services]
+  enable = true
+  title = "What we do"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  [[params.services.item]]
+    title = "Research"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-anchor"
+
+  [[params.services.item]]
+    title = "Software Development"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-layers2"
+  [[params.services.item]]
+    title = "Data Analytics and stuff"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-video2"
+
+# About section
+[params.about]
+  enable = false
+  title = "About"
+  description = "This section is about us. We are cool and stuff."
+
+  [[params.about.item]]
+    name = "Lewis Daly"
+    position = "Web Designer"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "person1.jpg"
+    alt = "Person1"
+    social = [
+      ["icon-twitter", "#"],
+      ["icon-facebook", "#"],
+      ["icon-linkedin", "#"]
+    ]
+
+# Counters section
+[params.counters]
+  enable = false
+  title = "Stats"
+  background = "full_image_1.jpg"
+
+  [[params.counters.item]]
+    description = "Finished projects"
+    icon = "icon-briefcase"
+    from = 0
+    to = 89
+    interval = 50
+    speed = 5000
+
+  [[params.counters.item]]
+    description = "Lines of code"
+    icon = "icon-code"
+    from = 0
+    to = 2343409
+    interval = 50
+    speed = 5000
+
+  [[params.counters.item]]
+    description = "Cups of coffee"
+    icon = "icon-cup"
+    from = 0
+    to = 1302
+    interval = 50
+    speed = 5000
+
+  [[params.counters.item]]
+    description = "Happy clients"
+    icon = "icon-people"
+    from = 0
+    to = 52
+    interval = 50
+    speed = 5000
+
+# Contact section
+[params.contact]
+  enable = true
+  map = true
+  form = true
+  title = "Get in touch"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  # Available icons: http://simplelineicons.com/
+  details = [
+      ["icon-home", "Adelaide, Australia"],
+      ["icon-envelope", "lewis@vesselstech.com"],
+      ["icon-globe", '<a href="http://vesselstech.com/" target="_blank">vesselstech.com</a>']
+    ]
+
+  name = "Name"
+  email = "Email"
+  message = "Message"
+  button = "Send message"
+
+# Footer section
+[params.footer]
+  enable = true
+  copyright = '&copy; Vessels Tech Pty. Ltd. All Rights Reserved.'
+  links = [
+      ["icon-twitter", "https://twitter.com/lewdaly", "#twitter"],
+      ["icon-medium", "https://medium.com/vessels", "#medium"],
+]
