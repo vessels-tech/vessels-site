@@ -3,6 +3,8 @@ baseurl = "https://vesselstech.com"
 title = "Vessels Tech"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+layoutdir = "layouts"
+
 
 [params]
 

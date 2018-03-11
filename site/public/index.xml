@@ -10,5 +10,14 @@
 	<atom:link href="https://vesselstech.com/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Blog archives</title>
+      <link>https://vesselstech.com/mywell.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vesselstech.com/mywell.html</guid>
+      <description> MyWell is cool </description>
+    </item>
+    
   </channel>
 </rss>
