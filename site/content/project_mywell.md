@@ -1,14 +1,71 @@
 ---
-title: "sdsd"
-subtitle: Doing things with wells.
+title: "MyWell"
+subtitle: Crowdsourcing Groundwater for resilient farming communities.
 url: "/mywell.html"
 type: page
 layout: project
 
-#Let's just specify the stuff here for now
+features:
+ title: these are the features
+ description: A short desc about the features
+ items:
+  - title: feature 1
+    description: desc 1
+    icon: "icon-anchor"
+  - title: feature 2
+    description: desc 2
+    icon: "icon-anchor"
+
+testimonials:
+  title: What's being said about MyWell
+  description: Something said
+  items:
+    - quote: this is what I said
+      person: This is who said it
+      img: "person1.jpg"
+    - quote: this is what I said
+      person: This is who said it
+      img: "person2.jpg"
+    - quote: this is what I said
+      person: This is who said it
+      img: "person3.jpg"
+
+counters:
+  title: Things we're counting
+  background: "full_image_1.jpg"
+  items:
+    - description: "Finished projects"
+      icon: "icon-briefcase"
+      from: 0
+      to: 89
+      interval: 50
+      speed: 5000
+
+    - description: "Lines of code"
+      icon: "icon-code"
+      from: 0
+      to: 2343409
+      interval: 50
+      speed: 5000
+
+    - description: "Cups of coffee"
+      icon: "icon-cup"
+      from: 0
+      to: 1302
+      interval: 50
+      speed: 5000
+
+    - description: "Happy clients"
+      icon: "icon-people"
+      from: 0
+      to: 52
+      interval: 50
+      speed: 5000
 
 
-
+contact:
+  title: Learn more
+  description: Learn more about mywell or something
 ---
 
 ## What is it

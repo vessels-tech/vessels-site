@@ -9,15 +9,15 @@
     </head>
     <body>
         {{ partial "nav.html" .}}
-        {{ partial "project_hero.html" .}}
-        <!-- {{ partial "services.html" .}} -->
-        <!-- {{ partial "testimonials.html" .}} -->
+        {{ partial "project/hero.html" .}}
+        {{ partial "project/features.html" .}}
+        {{ partial "project/testimonials.html" .}}
 
          <div class="markdown">
               {{ .Content }}
         </div>
-      	<!-- {{ partial "counters.html" .}} -->
-        <!-- {{ partial "contact_short.html" .}} -->
+      	{{ partial "project/counters.html" .}}
+        {{ partial "project/contact_short.html" .}}
       	{{ partial "footer.html" .}}
         {{ partial "js.html" .}}
     </body>
