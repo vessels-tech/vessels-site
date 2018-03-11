@@ -10,7 +10,9 @@
     <body>
         {{ partial "nav.html" .}}
 
-		     <h2>This is a project page template</h2>
+         <div class="markdown">
+              {{ .Content }}
+        </div>
 
         {{ if .Site.Params.footer.enable }}
         	{{ partial "footer.html" .}}
