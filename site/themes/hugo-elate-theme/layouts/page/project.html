@@ -9,15 +9,16 @@
     </head>
     <body>
         {{ partial "nav.html" .}}
+        {{ partial "project_hero.html" .}}
+        <!-- {{ partial "services.html" .}} -->
+        <!-- {{ partial "testimonials.html" .}} -->
 
          <div class="markdown">
               {{ .Content }}
         </div>
-
-        {{ if .Site.Params.footer.enable }}
-        	{{ partial "footer.html" .}}
-        {{ end }}
-
+      	<!-- {{ partial "counters.html" .}} -->
+        <!-- {{ partial "contact_short.html" .}} -->
+      	{{ partial "footer.html" .}}
         {{ partial "js.html" .}}
     </body>
 </html>
