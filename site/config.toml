@@ -1,0 +1,256 @@
+# Page settings
+baseurl = "https://vesselstech.com"
+title = "Vessels Tech"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+layoutdir = "layouts"
+
+
+[params]
+
+custom_css = ["css/custom1.css", "css/custom2.css"]
+
+# Meta
+author = "Vessels Tech"
+description = "Vessels Tech is ... "
+email = "lewis@vesselstech.com"
+
+#key for vessels-site firebase project
+google_map_key = "AIzaSyC-0czIvb5y6EuuDHSv_zgFWUy-IJQYDaY"
+google_analytics_key = ""
+
+
+# Navigation
+[params.navigation]
+  brand = "Vessels Tech"
+  home = "Home"
+  home_url = "https://google.com"
+  work = "Projects"
+  testimonials = "Testimonials"
+  services = "Services"
+  about = "About"
+  contact = "Contact"
+  blog = "Blog"
+
+  [params.menu]
+  [[params.menu.postpend]]
+    URL = "https://medium.com/vessels"
+    name = "Blog"
+    weight = 10
+
+# Hero section
+[params.hero]
+  title = "Digital Innovation for Social Impact."
+  subtitle = 'We build technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations.'
+
+# Intro section
+# Available icons: http://simplelineicons.com/
+[params.intro]
+
+[[params.intro.item]]
+  title = "Software"
+  description = "We are determined to see software used to better the lives of others. We build software solutions in uncommon places."
+  url = "#fh5co-contact"
+  button = "Get In Touch"
+  # icon = "icon-bulb"
+  icon = "icon-screen-smartphone"
+  img = "img_7.jpg"
+
+[[params.intro.item]]
+  title = "DLT"
+  description = "We're upcoming experts in Blockchain and Distributed Ledger Technology. We believe it can be used for transformative impact in low income countries."
+  url = "#fh5co-work"
+  button = "Learn More"
+  icon = "icon-layers"
+  img = "img_8.jpg"
+
+[[params.intro.item]]
+  title = "AI & NLP"
+  description = "We're investing in using AI and Natural Language Interfaces to reach underserved markets."
+  url = "#fh5co-work"
+  button = "Why us?"
+  icon = "icon-bubbles"
+  img = "img_10.jpg"
+
+[params.blog]
+  enable = true
+  title = "Blog"
+  description = "Follow along with our work as as we do it."
+  button_text = "Read our Blog"
+  url = "https://medium.com/vessels"
+  icon = "#medium"
+
+# Work section
+[params.work]
+  enable = true
+  title = "Our Work"
+  description = "Here's just some of the projects we're working on."
+  footertext = 'Want to see your project in this list? <a href="#fh5co-contact">Contact Us.</a>'
+
+  [[params.work.row]]
+    img = "work_mywell.jpg"
+    alt = "Image2"
+    title = "MyWell"
+    url = "https://vesselstech.com/mywell.html"
+    link_enabled = true
+    subtitle = 'Building communities for sustainable groundwater in rural India.'
+
+  [[params.work.row]]
+    img = "work_4pbot_1.png"
+    alt = "Image2"
+    title = "4PBot"
+    url = "https://4pbot.com"
+    link_enabled = true
+    subtitle = "Using AI and NLP to for financial inclusion in the Philippines."
+
+  [[params.work.row]]
+    img = "work_smscollect.jpg"
+    alt = "Image3"
+    title = "smscollect"
+    url = "https://smscollect.xyz"
+    link_enabled = true
+    subtitle = "Using chatbots to collect data from just about anywhere"
+
+  [[params.work.row]]
+    img = "work_iota.png"
+    alt = "Iota Work"
+    title = "IOTA"
+    link_enabled = false
+    subtitle = "Investing in IOTA for scalable IoT micropayments."
+
+  [[params.work.row]]
+    img = "work_iot.png"
+    alt = "Remote Data Collection"
+    title = "Remote IoT Solutions"
+    link_enabled = false
+    subtitle = "Collecting microclimate data to combat climate change."
+
+
+# Testimonials section
+[params.testimonials]
+  enable = false
+  title = "Testimonials"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  [[params.testimonials.item]]
+    quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+    person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    img = "person1.jpg"
+    alt = "Person1"
+
+  [[params.testimonials.item]]
+    quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+    person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    img = "person2.jpg"
+    alt = "Person2"
+
+  [[params.testimonials.item]]
+    quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+    person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    img = "person3.jpg"
+    alt = "Person3"
+
+# Services section
+[params.services]
+  enable = true
+  title = "What we do"
+  description = "Vessels Tech builds technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations."
+
+  [[params.services.item]]
+    title = "Research"
+    description = "We research IT projects for development. And we love it."
+    icon = "icon-book-open"
+
+  [[params.services.item]]
+    title = "Software Development"
+    description = "We build software and tools, with a focus on technology for social change."
+    icon = "icon-screen-smartphone"
+  [[params.services.item]]
+    title = "Data Analytics and Insights"
+    description = "We crunch numbers and make pretty reports with pretty infographics."
+    icon = "icon-directions"
+
+# About section
+[params.about]
+  enable = false
+  title = "About"
+  description = "This section is about us. We are cool and stuff."
+
+  [[params.about.item]]
+    name = "Lewis Daly"
+    position = "Web Designer"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    img = "person1.jpg"
+    alt = "Person1"
+    social = [
+      ["icon-twitter", "#"],
+      ["icon-facebook", "#"],
+      ["icon-linkedin", "#"]
+    ]
+
+# Counters section
+[params.counters]
+  enable = false
+  title = "Stats"
+  background = "full_image_1.jpg"
+
+  [[params.counters.item]]
+    description = "Finished projects"
+    icon = "icon-briefcase"
+    from = 0
+    to = 89
+    interval = 50
+    speed = 5000
+
+  [[params.counters.item]]
+    description = "Lines of code"
+    icon = "icon-code"
+    from = 0
+    to = 2343409
+    interval = 50
+    speed = 5000
+
+  [[params.counters.item]]
+    description = "Cups of coffee"
+    icon = "icon-cup"
+    from = 0
+    to = 1302
+    interval = 50
+    speed = 5000
+
+  [[params.counters.item]]
+    description = "Happy clients"
+    icon = "icon-people"
+    from = 0
+    to = 52
+    interval = 50
+    speed = 5000
+
+# Contact section
+[params.contact]
+  enable = true
+  map = true
+  form = true
+  title = "Get in touch"
+  description = "Got an idea you want to work on? Or maybe you are just interested in learning more? Contact us. We won't bite."
+
+  # Available icons: http://simplelineicons.com/
+  details = [
+      ["icon-home", "Adelaide, Australia"],
+      ["icon-envelope", "lewis@vesselstech.com"],
+      ["icon-globe", '<a href="http://vesselstech.com/" target="_blank">vesselstech.com</a>']
+    ]
+
+  name = "Name"
+  email = "Email"
+  message = "Message"
+  button = "Send message"
+
+# Footer section
+[params.footer]
+  enable = true
+  copyright = '</br>&copy; Vessels Tech Pty. Ltd. All Rights Reserved.'
+  links = [
+      ["icon-twitter", "https://twitter.com/lewdaly", "#twitter"],
+      ["icon-medium", "https://medium.com/vessels", "#medium"],
+]

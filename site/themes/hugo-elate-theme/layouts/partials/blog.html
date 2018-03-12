@@ -1,0 +1,17 @@
+<section id="fh5co-blog" data-section="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-heading text-center">
+				<h2 class="">{{ with .Site.Params.blog.title }}{{ . | markdownify }}{{ end }}</h2>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 subtext">
+						<h3>{{ with .Site.Params.blog.description }}{{ . | markdownify }}{{ end }}</h3>
+						<a class="btn btn-primary" target="_blank" href="{{ with .Site.Params.blog.url }}{{.}}{{ end }}">
+							{{with .Site.Params.blog.button_text }}{{.}}{{ end }}
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

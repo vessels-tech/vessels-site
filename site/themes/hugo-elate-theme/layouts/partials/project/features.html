@@ -1,0 +1,25 @@
+<section id="fh5co-services" data-section="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-left">
+        <h2 class=" left-border ">{{ with .Params.features.title }}{{ . |  }}{{ end }}</h2>
+        <div class="row">
+          <div class="col-md-8 subtext ">
+            <h3>{{ with .Params.features.description }}{{ . |  }}{{ end }}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+    {{ range .Params.features.items }}
+      <div class="col-md-6 col-sm-6 fh5co-service ">
+        <i class="icon -2 {{ .icon |  }}"></i>
+        <h3>{{ .title |  }}</h3>
+        <p>{{ .description |  }}</p>
+      </div>
+      <div class="clearfix visible-sm-block"></div>
+    {{ end }}
+    </div>
+  </div>
+</section>
+``

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        {{ partial "head.html" .}}
+    </head>
+    <body>
+        {{ partial "project/nav.html" .}}
+        {{ partial "project/hero.html" .}}
+        {{ partial "project/features.html" .}}
+        <section id="fh5co-content" class="container" data-section="content">
+    			<div class="text-wrap">
+    				<div class="text-inner">
+    					<div class="row">
+    						<div class="col-md-10 col-md-offset-1">
+                  <div class="markdown project-content">
+                       {{ .Content }}
+                 </div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</section>
+        {{ partial "project/testimonials.html" .}}
+        {{ partial "project/counters.html" .}}
+        {{ partial "project/contact_short.html" .}}
+      	{{ partial "footer.html" .}}
+        {{ partial "js.html" .}}
+    </body>
+</html>
