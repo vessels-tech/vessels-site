@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 2;
-  opacity: .9;
+  opacity: .7;
   -webkit-backface-visibility: hidden;
   background-color: #E89A63;
   /* IE9, iOS 3.2+ */
@@ -716,6 +716,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
   padding: 9em 0 10em 0;
+  opacity: 0.5;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counters {

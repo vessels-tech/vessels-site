@@ -6,7 +6,7 @@ type: page
 layout: project
 
 hero:
-  background: 
+  background: mywell_overlapping.png
 
 features:
  title: Features
