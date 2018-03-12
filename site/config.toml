@@ -24,6 +24,7 @@ google_analytics_key = ""
 [params.navigation]
   brand = "Vessels Tech"
   home = "Home"
+  home_url = "https://google.com"
   work = "Projects"
   testimonials = "Testimonials"
   services = "Services"

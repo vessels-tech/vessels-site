@@ -8,6 +8,17 @@ layout: project
 hero:
   background: mywell_overlapping.png
 
+navigation:
+  items:
+    - title: Features
+      section: features
+    - title: How It Works
+      section: content
+    - title: Testimonials
+      section: testimonials
+    - title: Contact
+      section: contact
+
 features:
  title: Features
  description: A short desc about the features
