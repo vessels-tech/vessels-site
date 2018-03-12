@@ -93,6 +93,7 @@ google_analytics_key = ""
     title = "MyWell"
     url = "https://vesselstech.com/mywell.html"
     link_enabled = true
+    new_window = false
     subtitle = 'Building communities for sustainable groundwater in rural India.'
 
   [[params.work.row]]
@@ -101,6 +102,7 @@ google_analytics_key = ""
     title = "4PBot"
     url = "https://4pbot.com"
     link_enabled = true
+    new_window = true
     subtitle = "Using AI and NLP to for financial inclusion in the Philippines."
 
   [[params.work.row]]
@@ -109,6 +111,7 @@ google_analytics_key = ""
     title = "smscollect"
     url = "https://smscollect.xyz"
     link_enabled = true
+    new_window = true
     subtitle = "Using chatbots to collect data from just about anywhere"
 
   [[params.work.row]]

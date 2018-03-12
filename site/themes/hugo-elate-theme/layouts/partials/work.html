@@ -14,7 +14,11 @@
 			{{ range .Site.Params.work.row }}
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					{{ if .link_enabled }}
+            {{ if .new_window}}
 					   <a href="{{.url}}" target="_blank" class="fh5co-project-item">
+            {{ else }}
+             <a href="{{.url}}" class="fh5co-project-item">
+            {{ end }}
 					{{else}}
 						<a href="images/{{ .img }}" target="_blank" class="fh5co-project-item image-popup">
 					{{ end }}

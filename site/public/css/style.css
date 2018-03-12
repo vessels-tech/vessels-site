@@ -21,13 +21,9 @@
 /* --main-color-2: #AB4E68; */
 
 
-/* project stuff  */
 .project-content img {
   max-width: 100%
 }
-
-
-/* default */
 
 
 body {
@@ -720,6 +716,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
   padding: 9em 0 10em 0;
+  opacity: 0.5;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counters {
