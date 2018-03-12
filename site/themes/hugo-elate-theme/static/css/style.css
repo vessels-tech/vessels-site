@@ -21,6 +21,9 @@
 /* --main-color-2: #AB4E68; */
 
 
+.project-content img {
+  max-width: 100%
+}
 
 
 body {
@@ -472,7 +475,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   margin-top: -150px;
   z-index: 10;
-  padding-bottom: 7em;
+  /* this was a little too much */
+  /* padding-bottom: 7em; */
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
