@@ -5,6 +5,9 @@ url: "/mywell.html"
 type: page
 layout: project
 
+hero:
+  background: 
+
 features:
  title: Features
  description: A short desc about the features
@@ -21,7 +24,7 @@ features:
 
 testimonials:
   title: What's being said
-  description: People are talking about MyWell!
+  description: People are talking about us!
   items:
     - quote: "A newly developed mobile application can come to the aid of experts looking to source data on groundwater level and create awareness about the issue among farmers."
       person: Financial Express
@@ -35,7 +38,7 @@ testimonials:
 
 counters:
   title: Things we're counting
-  background: "full_image_1.jpg"
+  background: "work_mywell.jpg"
   items:
     - description: "Wells Monitored"
       icon: "icon-tint"
