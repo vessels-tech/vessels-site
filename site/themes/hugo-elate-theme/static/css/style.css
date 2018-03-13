@@ -1457,4 +1457,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.slant,
+#fh5co-counters:before, #fh5co-counters:after,
+#fh5co-work:before, #fh5co-work:after,
+#fh5co-services:before, #fh5co-services:after {
+  width: 110%;
+  margin-left: -5%;
+}
+
+@media (min-width: 2000px) {
+  .slant,
+  #fh5co-counters:before, #fh5co-counters:after,
+  #fh5co-work:before, #fh5co-work:after,
+  #fh5co-services:before, #fh5co-services:after {
+    -ms-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
+
