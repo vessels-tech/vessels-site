@@ -1446,4 +1446,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: auto;
 }
 
+@media (max-width: 768px) {
+  #fh5co-intro .row {
+    display: block;
+    padding: 15px;
+  }
+
+  #fh5co-intro .fh5co-block {
+    margin-top: 1em;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
