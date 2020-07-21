@@ -1447,5 +1447,30 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+.work-bg-image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+@media (max-width: 1200px) {
+  .work-bg-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .work-bg-image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-bg-image {
+    height: calc(100vw * 0.66);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

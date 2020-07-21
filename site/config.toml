@@ -12,7 +12,7 @@ custom_css = ["css/custom1.css", "css/custom2.css"]
 
 # Meta
 author = "Vessels Tech"
-description = "Vessels Tech is ... "
+description = "Digital Innovation for Social Impact"
 email = "lewis@vesselstech.com"
 
 #key for vessels-site firebase project
@@ -40,8 +40,8 @@ google_analytics_key = ""
 
 # Hero section
 [params.hero]
-  title = "Digital Innovation for Social Impact."
-  subtitle = 'We build technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations.'
+  title = "Digital Innovation for Social Impact"
+  subtitle = 'We build technology for social impact in developing countries. Our work includes research, consulting and incubating our own products and innovations.'
 
 # Intro section
 # Available icons: http://simplelineicons.com/
@@ -49,7 +49,7 @@ google_analytics_key = ""
 
 [[params.intro.item]]
   title = "Software"
-  description = "We are determined to see software used to better the lives of others. We build software solutions in uncommon places."
+  description = "We are determined to see software used to better the lives of others. We build software solutions in underserved and underprivileged markets."
   url = "#fh5co-contact"
   button = "Get In Touch"
   # icon = "icon-bulb"
@@ -74,8 +74,8 @@ google_analytics_key = ""
 
 [params.blog]
   enable = true
-  title = "Blog"
-  description = "Follow along with our work as as we do it."
+  title = "Follow Our Journey"
+  description = "Check out our blog to stay up to date with what we're working on."
   button_text = "Read our Blog"
   url = "https://medium.com/vessels"
   icon = "#medium"
@@ -84,8 +84,8 @@ google_analytics_key = ""
 [params.work]
   enable = true
   title = "Our Work"
-  description = "Here's just some of the projects we're working on."
-  footertext = 'Want to see your project in this list? <a href="#fh5co-contact">Contact Us.</a>'
+  description = "Here are just some of the projects we're working on."
+  footertext = 'Want to see your project on this list? <a href="#fh5co-contact">Contact Us.</a>'
 
   [[params.work.row]]
     img = "work_mywell.jpg"
@@ -157,20 +157,21 @@ google_analytics_key = ""
 [params.services]
   enable = true
   title = "What we do"
-  description = "Vessels Tech builds technology for social impact in developing countries. We ride the line between research, consulting, and working on our own products and innovations."
+  description = "Vessels Tech builds technology for social impact in developing countries. Our work includes research, consulting and working on our own products and innovations."
 
   [[params.services.item]]
     title = "Research"
-    description = "We research IT projects for development. And we love it."
+    description = "We research opportunities and innovations for digital development in low-income countries."
     icon = "icon-book-open"
 
   [[params.services.item]]
     title = "Software Development"
     description = "We build software and tools, with a focus on technology for social change."
     icon = "icon-screen-smartphone"
+
   [[params.services.item]]
     title = "Data Analytics and Insights"
-    description = "We crunch numbers and make pretty reports with pretty infographics."
+    description = "We turn your raw data into actionable insights."
     icon = "icon-directions"
 
 # About section
@@ -235,7 +236,7 @@ google_analytics_key = ""
   map = true
   form = true
   title = "Get in touch"
-  description = "Got an idea you want to work on? Or maybe you are just interested in learning more? Contact us. We won't bite."
+  description = "Do you have an idea that we can help you with? Are you interested in learning more about our work? We’d love to chat."
 
   # Available icons: http://simplelineicons.com/
   details = [
